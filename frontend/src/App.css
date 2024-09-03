@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header,
+nav {
+  z-index: 10001 !important;
+}
+
+
+.slick-slider {
+  /* background-color: aquamarine; */
+  /* padding-left: 30px; */
+  /* height: 480px !important; */
+}
+
+.slick-prev {
+  z-index: 1;
+  /* background-color: red !important; */
+}
+.slick-next {
+  z-index: 1;
+  /* background-color: red !important; */
+}
+
+.slick-dots li button:before {
+  color: rgb(179, 178, 178) !important;
+  font-size: 10px !important;
+  margin-top: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  /* font-size: 12px !important; */
+}
+
+.heartStar {
+  border-radius: 0px 28px 0px 28px;
+}
+
+
+
+.footer-title {
+  color: black !important;
+}
+
+.active {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: #39db4a;
+}
